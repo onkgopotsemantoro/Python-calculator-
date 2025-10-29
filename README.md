@@ -1,4 +1,5 @@
 .pydef calculator():
+   
     print("🧮 Welcome to Onkgopotse's Calculator!")
     print("-" * 40)
     print("Select an operation:")
@@ -9,7 +10,7 @@
     print("5. Exit")
 
     while True:
-        choice = input("\nEnter choice (1/2/3/4/5): ")
+        choice = input("\Enter choice (1/2/3/4/5): ")
 
         if choice == '5':
             print("Goodbye! 👋")
